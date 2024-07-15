@@ -1,0 +1,27 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directory
+myenv/
+env/
+.myenv/
+
+# Ignore Django specific files
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+/media
+/staticfiles
+.env
+
+# Ignore VSCode settings
+.vscode/
+myenv/pyvenv.cfg
+myenv/pyvenv.cfg
+*.cfg
+*.cfg

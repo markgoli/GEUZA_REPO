@@ -1,0 +1,10 @@
+<!-- templates/admin/traffic_data_change_list.html -->
+{% extends "admin/change_list.html" %}
+
+{% block content %}
+  <h2>Number of Registered Users Per Day</h2>
+  <div>
+    {{ graph|safe }}
+  </div>
+  {{ block.super }}
+{% endblock %}

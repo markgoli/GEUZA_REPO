@@ -1,0 +1,36 @@
+/* Custom styles for Django admin buttons */
+.btn-primary-custom {
+    background-color: #10c094 !important; /* Modern blue color */
+    border-color: #10c094 !important;
+    color: white !important;
+}
+
+.btn-secondary-custom {
+    background-color: #c0104b !important; /* Modern gray color */
+    border-color: #c0104b !important;
+    color: white !important;
+}
+
+.btn-info-custom {
+    background-color: #e01078 !important; /* Modern teal color */
+    border-color: #da0e7e !important;
+    color: white !important;
+}
+
+.btn-warning-custom {
+    background-color: #ffc107 !important; /* Modern yellow color */
+    border-color: #ffc107 !important;
+    color: black !important;
+}
+
+.btn-danger-custom {
+    background-color: #dc3545 !important; /* Modern red color */
+    border-color: #dc3545 !important;
+    color: #ffffff !important;
+}
+
+.btn-success-custom {
+    background-color: #28a745 !important; /* Modern green color */
+    border-color: #28a745 !important;
+    color: white !important;
+}

@@ -1,0 +1,13 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+{% block extrahead %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'user/css/custom.css' %}">
+{% endblock %}
+
+{% block branding %}
+    <a class="navbar-brand" href="{% url 'admin:index' %}">
+        <img src="{% static 'images/GEUZA.png' %}" alt="Custom Logo" style="height: 40px;">
+        <span>GEUZA</span>
+    </a>
+{% endblock %}

@@ -1,0 +1,22 @@
+/* static/css/admin_login.css */
+/* Your custom styles go here */
+
+body {
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    color: #0078d4;
+  }
+  
+  /* Make the login button green */
+  #login-form input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50;
+  }
+  
+  #login-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

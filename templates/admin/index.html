@@ -1,0 +1,16 @@
+{% extends "admin/index.html" %}
+
+{% block content %}
+  {{ block.super }}
+  <div class="custom-admin-link" style="text-align: center; margin-top: 20px;">
+      <h2 style="font-weight: bold; color: rgb(15, 189, 15); font-size: 2.5em; animation: fadeIn 2s;">Site Analytics</h2>
+      <a class="button" href="{% url 'admin:user_sitevisit_changelist' %}?graph=true" style="background-color: rgb(219, 10, 90); color: black; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Traffic Site Graph</a>
+  </div>
+{% endblock %}
+
+<style>
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
