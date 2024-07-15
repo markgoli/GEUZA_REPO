@@ -1,9 +1,6 @@
 <!-- {% extends "admin/change_list.html" %} -->
 
-{% block content %}
-    {{ block.super }}
-    <h2>Total Visits Per Day</h2>
-    <div>
-        {{ graph|safe }}
-    </div>
+{% block content %} {{ block.super }}
+<h2>Total Visits Per Day</h2>
+<div>{{ graph|safe }}</div>
 {% endblock %}
