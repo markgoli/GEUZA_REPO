@@ -101,7 +101,7 @@ def index(request):
         'upcoming_events': upcoming_events,
     }
 
-    return render(request, 'user/hello.html', context)
+    return render(request, 'user/index-corporate.html', context)
 
 
 
