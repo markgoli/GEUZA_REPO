@@ -102,6 +102,7 @@ def index(request):
     }
 
     # return render(request, 'user/index-corporate.html', context)
+    # return render(request, 'user/home1.html', context)
     return render(request, 'user/Home.html', context)
 
 

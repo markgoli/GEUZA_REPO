@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="__variable_08443d">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/font-icons.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/swiper.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}" />
+    <link
+      rel="stylesheet"
+      href="{% static 'include/rs-plugin/css/settings.css' %}"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'include/rs-plugin/css/layers.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'include/rs-plugin/css/navigation.css' %}"
+    />
+    <link
+      rel="preload"
+      href="{% static '_next/static/media/77011aec4d5bcbcb-s.p.otf' %}"
+      as="font"
+      crossorigin=""
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="{% static '_next/static/media/9079a99665726f04-s.p.otf' %}"
+      as="font"
+      crossorigin=""
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="{% static '_next/static/media/c5aaae22a7a761af-s.p.otf' %}"
+      as="font"
+      crossorigin=""
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="{% static '_next/static/media/d51a31c3c079abbd-s.p.otf' %}"
+      as="font"
+      crossorigin=""
+      type="font/otf"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{% static '_next/static/css/6b3d0fba7a03a689.css' %}"
+      data-precedence="next"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static '_next/static/css/4117f25aa3f81f56.css' %}"
+      data-precedence="next"
+    />
+    <link
+      rel="preload"
+      as="script"
+      fetchPriority="low"
+      href="{% static '_next/static/chunks/webpack-b52cf553e665a950.js' %}"
+    />
+    <script src="{% static '_next/static/chunks/polyfills-78c92fac7aa8fdd8.js' %}" nomodule=""></script>
+  </head>
+  <body>
+    <div">
+      {% include 'user/hdr.html' %}
+      <main>
+        {% block content %}
+        <!-- Default content -->
+        {% endblock %}
+      </main>
+      {% include 'user/footer.html' %}
+    </div>
+  </body>
+</html>

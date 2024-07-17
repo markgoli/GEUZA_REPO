@@ -1,4 +1,4 @@
-{% extends "user/base.html" %} {% block title %}GUEZA - Home{% endblock%}
+{% extends "user/basefile.html" %} {% block title %}GUEZA - Home{% endblock%}
 {%block content %} {%load static %}
 <section
   id="slider"
@@ -28,7 +28,7 @@
             data-title="Welcome to Canvas"
           >
             <img
-              src="{% static 'images/videos/explore-poster.jpg' %}"
+              src="static/images/videos/explore-poster.jpg"
               alt="Image"
               data-bgposition="center center"
               data-bgfit="cover"
