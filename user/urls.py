@@ -11,10 +11,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('', index, name='index'),
-    path('geuzza/', about, name='geuzza'),
+    path('geuza/', about, name='geuza'),
     path('sermons/', sermons, name='sermons'),
     path('gevent/', event, name='gevent'),
-    path('donate/', event, name='donate'),
+    path('donate/', donation, name='donate'),
     path('contacts/', contact_view, name='contacts'),
     path('ministries/', ministries, name='ministries'),
     path('ministries_single/', single_ministries, name='mini_single'),

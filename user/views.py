@@ -101,7 +101,8 @@ def index(request):
         'upcoming_events': upcoming_events,
     }
 
-    return render(request, 'user/index-corporate.html', context)
+    # return render(request, 'user/index-corporate.html', context)
+    return render(request, 'user/Home.html', context)
 
 
 
@@ -114,11 +115,11 @@ def sermons(request):
     context = {
         'all_sermons': all_sermons,
     }
-    return render(request, 'user/SERMON.html', context)
+    return render(request, 'user/Sermon.html', context)
 
 
 def about(request):
-    return render(request, 'user/about.html')
+    return render(request, 'user/About.html')
 
 # views.py
 from django.shortcuts import render
@@ -150,7 +151,7 @@ def event(request):
         'upcoming_event': upcoming_event,
         'upcoming_events': upcoming_events,
     }
-    return render(request, 'user/EVENTS.html', context)
+    return render(request, 'user/Events.html', context)
 
 def donation(request):
     last_image = UploadedImage.objects.last()
@@ -176,10 +177,10 @@ def donation(request):
         'upcoming_event': upcoming_event,
         'upcoming_events': upcoming_events,
     }
-    return render(request, 'user/DONATE.html', context)
+    return render(request, 'user/Donation.html', context)
 
 def contacts(request):
-    return render(request, 'user/contact.html')
+    return render(request, 'user/Contact.html')
 
 def ministries(request):
     last_image = UploadedImage.objects.last()
@@ -206,14 +207,14 @@ def ministries(request):
         'upcoming_events': upcoming_events,
     }
 
-    return render(request, 'user/MINISTRY.html', context)
+    return render(request, 'user/Ministry.html', context)
 
 def single_ministries(request):
     return render(request, 'user/MINISTRY_SING.html')
 
 
 def join(request):
-    return render(request, 'user/JOIN.html')
+    return render(request, 'user/JoinUs.html')
 
 # from djangoflutterwave.models import FlwPlanModel
 # from django.views.generic import TemplateView
@@ -351,7 +352,7 @@ def contact_view(request):
             return redirect('contact_success')
     else:
         form = ContactForm()
-    return render(request, 'user/contact.html', {'form': form})
+    return render(request, 'user/Contact.html', {'form': form})
 
 
 

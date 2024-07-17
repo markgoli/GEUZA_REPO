@@ -1,0 +1,662 @@
+{% extends "user/base.html" %} {% block title %} Events | GEUZA {% endblock %}
+{%block content %} {% load static %}
+
+<!-- <section class="page-title page-title-center bg-transparent">
+  <div class="container">
+    <div class="page-title-row">
+      <div class="page-title-content">
+        <h1>Events List</h1>
+        <span>Showcase of Events</span>
+      </div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Events</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</section> -->
+
+<section id="content">
+  <div class="content-wrap bg-light">
+    <div class="container">
+      <div class="row col-mb-80">
+        <main class="postcontent col-lg-9">
+          <div class="row g-4 mb-5">
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/fIHozNWfcvs/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          Online Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Fri, Jan 23 @ 5:30PM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">New York WordCamp 2022</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                      Fugiat facilis eius amet corrupti autem?
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> New York, USA</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/fIHozNWfcvs/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          Online Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Fri, Jan 23 @ 5:30PM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">New York WordCamp 2022</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> New York, USA</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/nF8xhLMmg0c/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          In-Person Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Mon, Feb 12 @ 3:00PM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">Women's WordCamp 2022</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> Chiang Mai,
+                          Thailand</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/cd7i9vYIyeY/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          Private Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Fri, Mar 5 @ 11:00AM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">London Product Conference</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> London, UK</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/nwLTVwb7DbU/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          Online Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Fri, Jan 23 @ 5:30PM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">New York WordCamp 2022</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> New York, USA</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/rE9vgD_TXgM/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          In-Person Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Mon, Feb 12 @ 3:00PM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">Women's WordCamp 2022</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> Chiang Mai,
+                          Thailand</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="entry event col-12 mb-0">
+              <div
+                class="grid-inner bg-white row g-0 p-3 border-0 rounded-5 shadow-sm h-shadow all-ts h-translate-y-sm"
+              >
+                <div class="col-md-4 mb-md-0">
+                  <a href="#" class="entry-image mb-0 h-100">
+                    <img
+                      src="https://source.unsplash.com/cw-cj_nFa14/800x450"
+                      alt="Inventore voluptates velit totam ipsa tenetur"
+                      class="rounded-2 h-100 object-cover"
+                    />
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content justify-content-start align-items-start"
+                      >
+                        <div class="badge bg-light text-dark rounded-pill">
+                          Private Event
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-8 p-4">
+                  <div class="entry-meta no-separator mb-1 mt-0">
+                    <ul>
+                      <li>
+                        <a href="#" class="text-uppercase fw-medium"
+                          >Fri, Mar 5 @ 11:00AM</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="entry-title nott">
+                    <h3><a href="#">London Product Conference</a></h3>
+                  </div>
+                  <div class="entry-content my-3">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ratione, voluptatem, dolorem animi nisi autem blanditiis.
+                    </p>
+                  </div>
+                  <div class="entry-meta no-separator">
+                    <ul>
+                      <li>
+                        <a href="#" class="fw-normal"
+                          ><i class="uil uil-map-marker"></i> London, UK</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <a href="#" class="btn btn-outline-secondary">&larr; Older</a>
+            <a href="#" class="btn btn-outline-dark">Newer &rarr;</a>
+          </div>
+        </main>
+        <aside class="sidebar col-lg-3">
+          <div class="sidebar-widgets-wrap bg-white rounded-5 p-4 shadow-sm">
+            <div class="widget">
+              <h4>Upcoming Events</h4>
+              <div class="posts-sm row col-mb-30" id="post-list-sidebar">
+                <div class="entry col-12">
+                  <div class="grid-inner row g-0">
+                    <div class="col-auto">
+                      <div class="entry-image">
+                        <a href="#"
+                          ><img
+                            src="{static 'images/events/thumbs/1.jpg' %}"
+                            alt="Image"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col ps-3">
+                      <div class="entry-title">
+                        <h4>
+                          <a href="#"
+                            >Lorem ipsum dolor sit amet, consectetur</a
+                          >
+                        </h4>
+                      </div>
+                      <div class="entry-meta">
+                        <ul>
+                          <li>10th July 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry col-12">
+                  <div class="grid-inner row g-0">
+                    <div class="col-auto">
+                      <div class="entry-image">
+                        <a href="#"
+                          ><img
+                            src="{static 'images/events/thumbs/2.jpg' %}"
+                            alt="Image"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col ps-3">
+                      <div class="entry-title">
+                        <h4>
+                          <a href="#">Elit Assumenda vel amet dolorum quasi</a>
+                        </h4>
+                      </div>
+                      <div class="entry-meta">
+                        <ul>
+                          <li>10th July 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="entry col-12">
+                  <div class="grid-inner row g-0">
+                    <div class="col-auto">
+                      <div class="entry-image">
+                        <a href="#"
+                          ><img
+                            src="{static 'images/events/thumbs/3.jpg' %}"
+                            alt="Image"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col ps-3">
+                      <div class="entry-title">
+                        <h4>
+                          <a href="#">Debitis nihil placeat, illum est nisi</a>
+                        </h4>
+                      </div>
+                      <div class="entry-meta">
+                        <ul>
+                          <li>10th July 2021</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget">
+              <h4>Events</h4>
+              <div
+                id="oc-portfolio-sidebar"
+                class="owl-carousel carousel-widget"
+                data-items="1"
+                data-margin="10"
+                data-loop="true"
+                data-nav="false"
+                data-autoplay="5000"
+              >
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="#">
+                      <img
+                        src="{static 'images/events/thumbs/3.jpg' %}"
+                        alt="Image"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="../vimeo.com/89396394.html"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="zoomIn"
+                          data-hover-speed="350"
+                          data-lightbox="iframe"
+                          ><i class="uil uil-play"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc text-center pb-0">
+                    <h3>
+                      <a href="portfolio-single-video.html"
+                        >Inventore voluptates velit totam ipsa tenetur</a
+                      >
+                    </h3>
+                    <span><a href="#">Melbourne, Australia</a></span>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-image">
+                    <a href="portfolio-single.html">
+                      <img
+                        src="{static 'images/events/thumbs/1.jpg' %}"
+                        alt="Image"
+                      />
+                    </a>
+                    <div class="bg-overlay">
+                      <div
+                        class="bg-overlay-content dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      >
+                        <a
+                          href="{static 'images/events/thumbs/1.jpg' %}"
+                          class="overlay-trigger-icon bg-light text-dark"
+                          data-hover-animate="zoomIn"
+                          data-hover-speed="350"
+                          data-lightbox="image"
+                          ><i class="uil uil-plus"></i
+                        ></a>
+                      </div>
+                      <div
+                        class="bg-overlay-bg dark"
+                        data-hover-animate="fadeIn"
+                        data-hover-speed="350"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="portfolio-desc text-center pb-0">
+                    <h3>
+                      <a href="portfolio-single.html"
+                        >Nisi officia adipisci molestiae aliquam</a
+                      >
+                    </h3>
+                    <span><a href="#">Perth, Australia</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="widget">
+              <h4>Recent Event in Video</h4>
+              <iframe
+                src="http://player.vimeo.com/video/103927232"
+                width="500"
+                height="250"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="widget quick-contact-widget form-widget">
+              <h4>Quick Contact</h4>
+              <div class="form-result"></div>
+              <form
+                id="quick-contact-form"
+                name="quick-contact-form"
+                action="https://canvastemplate.com/include/form.php"
+                method="post"
+                class="quick-contact-form mb-0"
+              >
+                <div class="form-process">
+                  <div class="css3-spinner">
+                    <div class="css3-spinner-scaler"></div>
+                  </div>
+                </div>
+                <input
+                  type="text"
+                  class="required form-control mb-2"
+                  id="quick-contact-form-name"
+                  name="quick-contact-form-name"
+                  value
+                  placeholder="Full Name"
+                />
+                <input
+                  type="text"
+                  class="required form-control mb-2 email"
+                  id="quick-contact-form-email"
+                  name="quick-contact-form-email"
+                  value
+                  placeholder="Email Address"
+                />
+                <textarea
+                  class="required form-control mb-2 short-textarea"
+                  id="quick-contact-form-message"
+                  name="quick-contact-form-message"
+                  rows="4"
+                  cols="30"
+                  placeholder="Message"
+                ></textarea>
+                <input
+                  type="text"
+                  class="d-none"
+                  id="quick-contact-form-botcheck"
+                  name="quick-contact-form-botcheck"
+                  value
+                />
+                <input
+                  type="hidden"
+                  name="prefix"
+                  value="quick-contact-form-"
+                />
+                <button
+                  type="submit"
+                  id="quick-contact-form-submit"
+                  name="quick-contact-form-submit"
+                  class="button button-small button-3d m-0"
+                  value="submit"
+                >
+                  Send Email
+                </button>
+              </form>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

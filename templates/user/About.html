@@ -1,0 +1,676 @@
+{% extends "user/base.html" %} {% block title %} About Us | GEUZA{% endblock %}
+{% load static %} {%block content %}
+
+<section
+  class="page-title page-title-parallax parallax scroll-detect dark include-header"
+  style="padding: 250px 0"
+>
+  <img src="{% static 'images/about/parallax.jpg' %}" class="parallax-bg" />
+  <div class="container">
+    <div class="page-title-row">
+      <div class="page-title-content">
+        <h1>About Us</h1>
+        <span>Everything you need to know about our Company</span>
+      </div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <!-- <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li> -->
+          <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
+          <!-- <li class="breadcrumb-item active" aria-current="page">About Us</li> -->
+        </ol>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<section id="content">
+  <div class="content-wrap">
+    <div class="container">
+      <div class="row col-mb-50 mb-0">
+        <div class="col-lg-4">
+          <div
+            class="heading-block fancy-title border-bottom-0 title-bottom-border"
+          >
+            <h4>Why choose <span>Us</span>.</h4>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+            quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto,
+            hic autem deleniti dolores explicabo labore enim repellat earum
+            perspiciatis.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="heading-block fancy-title border-bottom-0 title-bottom-border"
+          >
+            <h4>Our <span>Mission</span>.</h4>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+            quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto,
+            hic autem deleniti dolores explicabo labore enim repellat earum
+            perspiciatis.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <div
+            class="heading-block fancy-title border-bottom-0 title-bottom-border"
+          >
+            <h4>What we <span>Do</span>.</h4>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+            quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto,
+            hic autem deleniti dolores explicabo labore enim repellat earum
+            perspiciatis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section m-0">
+      <div class="container">
+        <div class="row col-mb-50">
+          <div class="col-sm-6 col-lg-3 text-center" data-animate="bounceIn">
+            <i class="i-plain i-xlarge mx-auto bi-signpost-split"></i>
+            <div class="counter counter-lined">
+              <span
+                data-from="100"
+                data-to="846"
+                data-refresh-interval="50"
+                data-speed="2000"
+              ></span
+              >K+
+            </div>
+            <h5>Lines of Codes</h5>
+          </div>
+          <div
+            class="col-sm-6 col-lg-3 text-center"
+            data-animate="bounceIn"
+            data-delay="200"
+          >
+            <i class="i-plain i-xlarge mx-auto mb-0 bi-bezier"></i>
+            <div class="counter counter-lined">
+              <span
+                data-from="3000"
+                data-to="15360"
+                data-refresh-interval="100"
+                data-speed="2500"
+              ></span
+              >+
+            </div>
+            <h5>KBs of HTML Files</h5>
+          </div>
+          <div
+            class="col-sm-6 col-lg-3 text-center"
+            data-animate="bounceIn"
+            data-delay="400"
+          >
+            <i class="i-plain i-xlarge mx-auto mb-0 bi-layers"></i>
+            <div class="counter counter-lined">
+              <span
+                data-from="10"
+                data-to="408"
+                data-refresh-interval="25"
+                data-speed="3500"
+              ></span
+              >*
+            </div>
+            <h5>No. of Templates</h5>
+          </div>
+          <div
+            class="col-sm-6 col-lg-3 text-center"
+            data-animate="bounceIn"
+            data-delay="600"
+          >
+            <i class="i-plain i-xlarge mx-auto mb-0 bi-clock"></i>
+            <div class="counter counter-lined">
+              <span
+                data-from="60"
+                data-to="1200"
+                data-refresh-interval="30"
+                data-speed="2700"
+              ></span
+              >+
+            </div>
+            <h5>Hours of Coding</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-stretch">
+      <div
+        class="col-md-5 col-padding min-vh-75"
+        style="
+          background: url('images/team/3.jpg') center center no-repeat;
+          background-size: cover;
+        "
+      ></div>
+      <div class="col-md-7 col-padding">
+        <div>
+          <div class="heading-block">
+            <span class="before-heading color">CEO &amp; Co-Founder</span>
+            <h3>John Doe</h3>
+          </div>
+          <div class="row col-mb-50">
+            <div class="col-lg-6">
+              <p>
+                Employment respond committed meaningful fight against oppression
+                social challenges rural legal aid governance. Meaningful work,
+                implementation, process cooperation, campaign inspire.
+              </p>
+              <p>
+                Advancement, promising development John Lennon, our ambitions
+                involvement underprivileged billionaire philanthropy save the
+                world transform. Carbon rights maintain healthcare emergent,
+                implementation inspire social change solve clean water
+                livelihoods.
+              </p>
+              <div class="d-flex">
+                <a
+                  href="#"
+                  class="social-icon bg-light si-small border-transparent rounded-circle h-bg-facebook"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon bg-light si-small border-transparent rounded-circle h-bg-x-twitter"
+                >
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon bg-light si-small border-transparent rounded-circle h-bg-google"
+                >
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="skill-progress"
+                data-percent="80"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>WordPress</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="80"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="60"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>CSS3</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="60"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="90"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>HTML5</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="90"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="70"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>Javascript</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="70"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="85"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>Ruby</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="85"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-stretch mb-6">
+      <div
+        class="col-md-5 col-padding min-vh-75 order-md-last"
+        style="
+          background: url('static/images/team/8.jpg') center center no-repeat;
+          background-size: cover;
+        "
+      ></div>
+      <div class="col-md-7 col-padding bg-contrast-100">
+        <div>
+          <div class="heading-block">
+            <span class="before-heading color">Developer &amp; Evangelist</span>
+            <h3>Mary Jane</h3>
+          </div>
+          <div class="row col-mb-50">
+            <div class="col-lg-6">
+              <p>
+                Employment respond committed meaningful fight against oppression
+                social challenges rural legal aid governance. Meaningful work,
+                implementation, process cooperation, campaign inspire.
+              </p>
+              <p>
+                Advancement, promising development John Lennon, our ambitions
+                involvement underprivileged billionaire philanthropy save the
+                world transform. Carbon rights maintain healthcare emergent,
+                implementation inspire social change solve clean water
+                livelihoods.
+              </p>
+              <div class="d-flex">
+                <a
+                  href="#"
+                  class="social-icon si-small rounded-circle border-transparent h-bg-facebook"
+                  style="background-color: var(--bs-gray-300)"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon si-small rounded-circle border-transparent h-bg-x-twitter"
+                  style="background-color: var(--bs-gray-300)"
+                >
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="social-icon si-small rounded-circle border-transparent h-bg-google"
+                  style="background-color: var(--bs-gray-300)"
+                >
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="skill-progress"
+                data-percent="80"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>WordPress</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="80"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="60"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>CSS3</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="60"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="90"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>HTML5</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="90"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="70"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>Javascript</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="70"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+              <div
+                class="skill-progress"
+                data-percent="85"
+                data-speed="1000"
+                style="
+                  --cnvs-progress-height: 0.25rem;
+                  --cnvs-progress-trackcolor: #ddd;
+                "
+              >
+                <div class="skill-progress-title mb-2">
+                  <h5>Ruby</h5>
+                  <div class="badge bg-color fw-normal">
+                    <div class="counter counter-inherit counter-instant">
+                      <span
+                        data-from="0"
+                        data-to="85"
+                        data-refresh-interval="30"
+                        data-speed="1000"
+                        >0</span
+                      >%
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-percent bg-color"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="heading-block text-center">
+        <h4>Our Clients</h4>
+      </div>
+      <ul class="clients-grid row row-cols-2 row-cols-sm-3 row-cols-md-6 mb-0">
+        <li class="grid-item">
+          <a href="http://logofury.com/logo/enzo.html"
+            ><img src="{% static 'images/clients/1.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/"
+            ><img src="{% static 'images/clients/2.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofaves.com/2021/03/grabbt/"
+            ><img src="{% static 'images/clients/3.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofaves.com/2021/01/ladera-granola/"
+            ><img src="{% static 'images/clients/4.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofaves.com/2021/02/hershel-farms/"
+            ><img src="{% static 'images/clients/5.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/logo/food-fight-radio.html"
+            ><img src="{% static 'images/clients/6.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/"
+            ><img src="{% static 'images/clients/7.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/logo/up-travel.html"
+            ><img src="{% static 'images/clients/8.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/logo/caffi-bardi.html"
+            ><img src="{% static 'images/clients/9.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/logo/bignix-design.html"
+            ><img src="{% static 'images/clients/10.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/"
+            ><img src="{% static 'images/clients/11.png' %}" alt="Clients"
+          /></a>
+        </li>
+        <li class="grid-item">
+          <a href="http://logofury.com/"
+            ><img src="{% static 'images/clients/12.png' %}" alt="Clients"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="section footer-stick">
+      <h4 class="text-uppercase text-center">What <span>Clients</span> Say?</h4>
+      <div
+        class="fslider testimonial testimonial-full text-center"
+        data-animation="fade"
+        data-arrows="false"
+      >
+        <div class="flexslider">
+          <div class="slider-wrap">
+            <div class="slide">
+              <div class="row flex-column gy-3 align-items-center">
+                <div class="col-auto pt-1">
+                  <img
+                    class="rounded-circle"
+                    src="{% static 'images/testimonials/3.jpg' %}"
+                    width="72"
+                    height="72"
+                    alt="Customer Testimonails"
+                  />
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <p class="mb-3 fs-5 font-secondary">
+                    Similique fugit repellendus expedita excepturi iure
+                    perferendis provident quia eaque. Repellendus, vero numquam?
+                  </p>
+                  <h4 class="h6 mb-0 fw-medium">Steve Jobs</h4>
+                  <small class="text-muted">Apple Inc.</small>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="row flex-column gy-3 align-items-center">
+                <div class="col-auto pt-1">
+                  <img
+                    class="rounded-circle"
+                    src="{% static 'images/testimonials/2.jpg' %}"
+                    width="72"
+                    height="72"
+                    alt="Customer Testimonails"
+                  />
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <p class="mb-3 fs-5 font-secondary">
+                    Natus voluptatum enim quod necessitatibus quis expedita
+                    harum provident eos obcaecati id culpa corporis molestias.
+                  </p>
+                  <h4 class="h6 mb-0 fw-medium">Collis Ta'eed</h4>
+                  <small class="text-muted">Envato Inc.</small>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="row flex-column gy-3 align-items-center">
+                <div class="col-auto pt-1">
+                  <img
+                    class="rounded-circle"
+                    src="{% static 'images/testimonials/1.jpg' %}"
+                    width="72"
+                    height="72"
+                    alt="Customer Testimonails"
+                  />
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <p class="mb-3 fs-5 font-secondary">
+                    Incidunt deleniti blanditiis quas aperiam recusandae
+                    consequatur ullam quibusdam cum libero illo rerum!
+                  </p>
+                  <h4 class="h6 mb-0 fw-medium">John Doe</h4>
+                  <small class="text-muted">XYZ Inc.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
